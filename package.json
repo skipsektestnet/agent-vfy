@@ -1,12 +1,13 @@
 {
   "name": "agent-vfy",
-  "version": "1.0.0",
-  "description": "BRAW Proof Gatekeeper Agent for zkVerify Agent Games",
+  "version": "1.1.0",
+  "description": "BRAW Proof Gatekeeper Agent with Local Groth16 ZK Proof Generation for zkVerify Agent Games",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "snarkjs": "^0.7.4"
   }
 }
